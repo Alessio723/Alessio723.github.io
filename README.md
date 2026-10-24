@@ -29,9 +29,6 @@ script.js    comportamento (tema, menu attivo, anno)
 
 Non servono installazioni né comandi di build.
 
-## Pubblicazione
-
-Il sito è pubblicato con GitHub Pages dal ramo `main`: ogni `git push` aggiorna la versione online in circa un minuto.
 
 ## Contatti
 
