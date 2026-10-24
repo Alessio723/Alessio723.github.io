@@ -3,8 +3,8 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Alessio Avdiu – Studente di informatica</title>
-  <meta name="description" content="Portfolio di Nome Cognome, studente di informatica: sviluppo web, app mobile, AI e analisi dei dati.">
+  <title>Alessio Avdiu – Sviluppo web</title>
+  <meta name="description" content="Portfolio di Nome Cognome: sviluppo web con JavaScript, TypeScript e Python.">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700;12..96,800&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;1,8..60,400&display=swap" rel="stylesheet">
@@ -14,7 +14,7 @@
   <a class="skip" href="#contenuto">Vai al contenuto</a>
 
   <div class="layout">
-    <!-- Barra laterale: nome, navigazione, tema -->
+    <!-- Intestazione: nome, navigazione, tema -->
     <header class="side">
       <p class="brand">Alessio Avdiu</p>
       <nav aria-label="Sezioni">
@@ -31,54 +31,55 @@
     </header>
 
     <main id="contenuto">
-      <!-- HERO -->
+      <!-- PRESENTAZIONE -->
       <section class="hero" id="chi-sono">
-        <h1>Costruisco app web e mobile, e imparo a farle ragionare con i dati.</h1>
+        <h1>Sviluppo applicazioni web con JavaScript, TypeScript e Python.</h1>
         <p class="lead">
-          Sono Alessio, cerco un primo lavoro dove poter sviluppare prodotti
-          che le persone usano davvero.
+          Uso React e Vue per il frontend, Node.js, Django e Flask per il backend,
+          PostgreSQL, MySQL e SQLite per i dati. Mi interessano anche lo sviluppo
+          mobile e l'AI applicata ai dati.
         </p>
         <p class="actions">
           <a class="btn primary" href="#progetti">Guarda i progetti</a>
-          <a class="btn" href="#contatti">Scrivimi</a>
+          <a class="btn" href="#contatti">Contattami</a>
         </p>
       </section>
 
       <!-- COMPETENZE -->
       <section id="competenze" class="block">
         <h2>Competenze</h2>
-        <p class="intro">Tre aree su cui sto lavorando, con gli strumenti che uso in ciascuna.</p>
+        <p class="intro">Gli strumenti che uso, divisi per area.</p>
 
         <div class="areas">
           <article>
+            <h3>Linguaggi</h3>
+            <p>Per frontend, backend e script.</p>
+            <ul class="tags">
+              <li>JavaScript</li><li>TypeScript</li><li>Python</li><li>SQL</li>
+            </ul>
+          </article>
+          <article>
             <h3>Web</h3>
-            <p>Interfacce responsive, API e database.</p>
+            <p>Interfacce, API e applicazioni complete.</p>
             <ul class="tags">
-              <li>HTML</li><li>CSS</li><li>JavaScript</li><li>React</li><li>Node.js</li><li>SQL</li>
+              <li>React</li><li>Vue</li><li>Node.js</li><li>Django</li><li>Flask</li><li>Next.js</li>
             </ul>
           </article>
           <article>
-            <h3>Mobile</h3>
-            <p>App per Android e iOS da un'unica base di codice.</p>
+            <h3>Database</h3>
+            <p>Progettazione dei dati.</p>
             <ul class="tags">
-              <li>Flutter</li><li>Dart</li><li>React Native</li>
-            </ul>
-          </article>
-          <article>
-            <h3>AI e dati</h3>
-            <p>Analisi, modelli semplici e loro messa online.</p>
-            <ul class="tags">
-              <li>Python</li><li>pandas</li><li>scikit-learn</li><li>Jupyter</li><li>FastAPI</li>
+              <li>PostgreSQL</li><li>MySQL</li><li>SQLite</li>
             </ul>
           </article>
         </div>
-        <p class="note">Strumenti comuni: Git e GitHub, terminale Linux, Docker (in corso di studio).</p>
+        <p class="note">Strumenti di lavoro: Git, GitHub, VS Code.</p>
       </section>
 
       <!-- PROGETTI -->
       <section id="progetti" class="block">
         <h2>Progetti</h2>
-        <p class="intro">Dal più semplice al più complesso. Ognuno ha codice, README e dove possibile una demo online.</p>
+        <p class="intro">I progetti che costruisco, ognuno con il codice e, quando c'è, una demo online.</p>
 
         <ol class="projects">
           <li class="project">
@@ -86,52 +87,28 @@
               <h3>Questo portfolio</h3>
               <span class="status done">Online</span>
             </div>
-            <p>Sito statico responsive, con tema chiaro/scuro, scritto a mano senza framework.</p>
-            <p class="stack">HTML, CSS, JavaScript</p>
+            <p>Sito statico responsive con tema chiaro e scuro, scritto a mano senza framework e pubblicato con GitHub Pages.</p>
+            <p class="stack">HTML, CSS, JavaScript, Git</p>
             <p class="links">
-              <a href="https://github.com/TUO-USERNAME/portfolio">Codice</a>
+              <a href="https://github.com/TUO-USERNAME/TUO-USERNAME.github.io">Codice</a>
             </p>
           </li>
 
-          <li class="project">
-            <div class="p-head">
-              <h3>App meteo</h3>
-              <span class="status wip">In corso</span>
-            </div>
-            <p>Cerca una città e mostra tempo attuale e previsioni dei prossimi giorni, con gestione di errori e mancanza di connessione.</p>
-            <p class="stack">JavaScript, Open-Meteo API</p>
-            <p class="links">
-              <a href="#">Demo</a>
-              <a href="#">Codice</a>
-            </p>
-          </li>
-
-          <li class="project">
-            <div class="p-head">
-              <h3>Analisi di un dataset</h3>
-              <span class="status next">Prossimo</span>
-            </div>
-            <p>Esplorazione e visualizzazione di dati aperti su un tema che mi interessa, con le conclusioni scritte in un notebook.</p>
-            <p class="stack">Python, pandas, matplotlib</p>
-          </li>
-
-          <li class="project">
-            <div class="p-head">
-              <h3>App full stack con login</h3>
-              <span class="status next">Prossimo</span>
-            </div>
-            <p>Gestione spese o planner di studio, con utenti, database e API documentata. Poi la versione mobile.</p>
-            <p class="stack">React, Node.js, PostgreSQL, Flutter</p>
-          </li>
+          <!--
+            PER AGGIUNGERE UN PROGETTO: copia il blocco <li class="project"> qui sopra,
+            incollalo sotto e cambia titolo, descrizione, tecnologie e link.
+            Stati possibili: done (Online), wip (In corso).
+          -->
         </ol>
+        <p class="note">Altri progetti in arrivo: li aggiungo qui man mano che li finisco.</p>
       </section>
 
       <!-- CONTATTI -->
       <section id="contatti" class="block">
         <h2>Contatti</h2>
-        <p class="intro">Se hai un progetto o una domanda, scrivimi: rispondo in genere entro un paio di giorni.</p>
+        <p class="intro">Se hai un progetto o un ruolo da sviluppatore web, scrivimi.</p>
         <ul class="contacts">
-          <li><span>Email</span> <a href="mailto:tuaemail@esempio.it">avdiualessio1@gmail.com</a></li>
+          <li><span>Email</span> <a href="mailto:avdiualessio1@gmail.com">avdiualessio1@gmail.com</a></li>
           <li><span>GitHub</span> <a href="https://github.com/Alessio723">github.com/Alessio723</a></li>
         </ul>
       </section>
