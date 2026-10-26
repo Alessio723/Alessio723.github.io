@@ -46,13 +46,13 @@
 }
 
 /* ---------- Foto nella presentazione ---------- */
-.hero { display: grid; grid-template-columns: minmax(0, 1fr) 9rem; column-gap: 2rem; align-items: start; }
+.hero { --foto: 7.5rem; display: grid; grid-template-columns: minmax(0, 1fr) var(--foto); column-gap: 2rem; align-items: start; }
 .hero > * { grid-column: 1; }
 .hero .foto {
   grid-column: 2;
   grid-row: 1 / span 3;
-  width: 9rem;
-  height: 9rem;
+  width: var(--foto);
+  height: var(--foto);
   border-radius: 50%;
   object-fit: cover;
   border: 1px solid var(--line);
@@ -60,8 +60,8 @@
 .hero h1 { font-size: clamp(1.9rem, 3.6vw, 2.4rem); max-width: none; }
 
 @media (max-width: 720px) {
-  .hero { grid-template-columns: minmax(0, 1fr); }
-  .hero .foto { grid-column: 1; grid-row: auto; order: -1; width: 6.5rem; height: 6.5rem; margin-bottom: 1.5rem; }
+  .hero { --foto: 5.5rem; grid-template-columns: minmax(0, 1fr); }
+  .hero .foto { grid-column: 1; grid-row: auto; order: -1; margin-bottom: 1.5rem; }
 }
 
 /* ---------- Base ---------- */
