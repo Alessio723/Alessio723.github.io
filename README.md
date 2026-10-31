@@ -22,14 +22,6 @@ style.css    stile e tema chiaro/scuro
 script.js    comportamento (tema, menu attivo, anno)
 ```
 
-## Provarlo in locale
-
-1. Clona il repository o scarica i tre file nella stessa cartella.
-2. Apri `index.html` nel browser, oppure usa l'estensione Live Server di VS Code.
-
-Non servono installazioni né comandi di build.
-
-
 ## Contatti
 
 - GitHub: [Alessio723](https://github.com/Alessio723)
