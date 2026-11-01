@@ -21,8 +21,3 @@ index.html   contenuti della pagina
 style.css    stile e tema chiaro/scuro
 script.js    comportamento (tema, menu attivo, anno)
 ```
-
-## Contatti
-
-- GitHub: [Alessio723](https://github.com/Alessio723)
-- Email: avdiualessio1@gmail.com
